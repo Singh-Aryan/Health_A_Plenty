@@ -1,0 +1,59 @@
+The problem Health-A-Plenty solves :
+
+As we look into the current scenario of the modern world, it's clearly visible that people are comparatively falling ill and though the death ratio is comparatively decreasing but still at a very low rate compared to what it can be. The one main reason of this is the lack of proper knowledge and a regularity check on your health.
+
+
+Challenges we ran into :
+
+What we do is with the help of our website you can check your medical status to ensure that you are completely safe or may require a doctor for your current health status. Due to unavailability of proper resources we still have access to only some of the major diseases like some heart disease, liver disease, malaria, pneumonia, breast cancer and the most common one diabetes.
+
+1.) Training 6 Machine Learning Models with the Maximum Possible Accuracy
+2.) Building so many features in just 24hrs
+3.) Deployment of the App is the Main Challenge, solving the deployment bugs, redeploying again and again
+
+
+## How we built it
+We Build it using - HTML, CSS, Javascript, Flask, SMTP, Tensorflow, OpenCV, Numpy, Keras, Google Geolocation Services, Mapbox API, WebRTC, NodeJS, SocekIO, Firebase 
+
+
+
+You can use our demo Login to access our site or you can create a new one by clicking on Signup Button. You can also use Google Sign In.
+
+Demo Username : prakashaaditya18@gmail.com
+Demo Password : 123456 (Ignore Password Protection Alert of Chrome, because the password is too easy i.e why it's giving alerts like that)
+
+For Beckin API we have used the Nearby Hospital and Nearby Pharmacy API in our Project for that we have deployed a separate app on Heroku Platform because our main App is of size 520mb and Heroku Supports till 500mb only. It is giving us warning so we have Deployed it as a separate App.
+
+In the API section we are just Parsing the JSON Data Response from Beckin API to a MapBox Map and Marking the Locations using GPS Coordinates in JSON Response of Beckin API for Nearby Hospital and Nearby Pharmacies. We are getting the user's current location using Google Geolocation API. Using that we are doing all this things
+
+For Nearby Pharmacy Shops : https://nearbyhospitalapp.herokuapp.com/
+For Nearby Hospitals : https://nearbyhospitalapp.herokuapp.com/map
+
+
+
+
+
+
+
+
+
+## Inspiration
+To begin with , as we have witnessed in the recent times the severe urge and need of a better healthcare facility ,we have thereby come with an idea of enhancing and bringing in better and more equipped , time saving website . Henceforth we have designed Health-A-Plenty which describes We "pave the path for your better health." The idea of this website came in with adverse effects that we have been facing since the last two years from the pandemic.
+
+## What it does
+Here at health-a-plenty we provide the users with an online platform where they can run their health diagnosis by providing certain details regarding their health issues. Machine learning algorithms have been used to deliver accurate results.
+
+The soul purpose to create a website in this domain was to bring in a much healthier ambience for people to live in and also educate them about certain illnesses which are yet unknown and neglected.
+
+## Challenges we ran into
+What we do is with the help of our website you can check your medical status to ensure that you are completely safe or may require a doctor for your current health status. Due to unavailability of proper resources we still have access to only some of the major diseases like some heart disease, liver disease, malaria, pneumonia, breast cancer and the most common one diabetes.
+
+1.) Training 6 Machine Learning Models with the Maximum Possible Accuracy
+2.) Building so many features in just 24hrs
+3.) Deployment of the App is the Main Challenge, solving the deployment bugs, redeploying again and again
+
+## What we learned
+We learned about different frameworks while building the project. We also learn how to use Tech to deliver Health services to the needful
+
+## What's next for Health-A-Plenty
+We are planning to collaborate with some Hospitals and Doctors. We are also planning to approach some Pharmaceutical industries.
